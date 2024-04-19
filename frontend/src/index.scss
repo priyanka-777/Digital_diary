@@ -1,0 +1,390 @@
+$primary: hsl(0, 3%, 6%);
+$secondary: #f5f1f4;
+$danger: #fa76cc;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+input{
+  color:white
+}
+#login{
+  color:white
+}
+#regis{
+  color:white}
+
+
+button{
+  color:black
+}
+select,
+body{
+  background-image:url("5.jpg");
+  background-size:cover;
+  width:100%;
+ 
+}
+textarea {
+  border-radius: 0 !important;
+}
+.input{
+  color:white
+}
+#conte{
+  color:white;
+
+}
+#root {
+  color: #3b3a3b !important;
+}
+
+.title {
+  font-family: 'Yellowtail', cursive !important;
+}
+#cancel{
+  color:black;
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+
+.responsive-cell-block{
+  min-height:75px;
+  background-color:gainsboro;
+  
+  
+}
+.text-blk{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  color:black;
+  line-height:25px;
+}
+.team{
+text-align: center;
+
+
+}
+#search{
+  color:white
+}
+.team-head-text{
+  font-size:48px;
+  font-weight:900;
+  text-align:center;
+  font-family: "trirong";
+  color:whitesmoke;
+  padding-top:25px;
+}
+.team-head-text{
+  line-height:50px;
+  width:100%;
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:50px;
+  margin-left:0px;
+}
+
+.card{
+  text-align:center;
+  box-shadow:rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+  float:left;
+  align-items:center;
+  padding-top:30px;
+  padding-right:25px;
+  padding-bottom:30px;
+  padding-left:25px;
+  margin:20px;
+}
+.card-container{
+  
+  width:280px;
+  margin-top:0px;
+  margin-right:10px;
+  margin-bottom:25px;
+  margin-left:10px;
+}
+#diary{
+  color:white
+}
+.name{
+  margin-top:20px;
+  margin-right:0px;
+  margin-bottom:5px;
+  margin-left:0px;
+  font-size:18px;
+  font-weight:800;
+}
+.position{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:10px;
+  margin-left:0px;
+}
+.feature-text{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:20px;
+  margin-left:0px;
+  color:rgb(14, 12, 12);
+  line-height:30px;
+}
+
+.team-image-wrapper{
+  clip-path:circle(50% at 50% 50%);
+  width:130px;
+  height:130px;
+  padding: 15px;
+  
+  
+}
+.team-member-image {
+  max-width: 100%;
+}
+#register{
+  color:whitesmoke;
+}
+.logi{
+  color:whitesmoke
+}
+//css of about
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+.section{
+	width: 100%;
+	min-height: 110vh;
+	background-color: #ddd;
+}
+.container1{.section{
+	width: 100%;
+	min-height: 110vh;
+	background-color: #ddd;
+}
+.container1{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container1{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
+
+
+	width: 80%;
+	display: block;
+	margin:auto;
+  margin-top:30px;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+/*.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+}*/
+.content-section .social{
+  color:#a52a2a;
+	margin: 40px 40px;
+}
+.content-section .social i:hover{
+	color:#0c0909;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social a:hover{
+	color:#f70404;
+}
+@media screen and (max-width: 768px){
+	.container1{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+  margin-top:20px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+ 
+}
+.content-section .social a:hover{
+	color:#3d3d3d
+ 
+}
+}
+#cancel{
+	color:black;
+}
+
